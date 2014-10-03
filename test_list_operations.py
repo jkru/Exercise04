@@ -108,7 +108,7 @@ class TestListOperations(unittest.TestCase):
 
     def test_1_N_delete_middle(self):
         delete_middle(self.months)
-        delete_middle(self.notes)
+        delete_middle(self.notes)           
         delete_middle(self.multiples)
 
         self.assertEqual(self.months, ['Jan', 'Feb', 'Nov', 'Dec'])
